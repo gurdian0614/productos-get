@@ -1,3 +1,4 @@
+import Producto from "./components/Producto";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       </header>
 
       <main className="container mx-auto py-8">
-
+        <Producto />
       </main>
     </div>
   );
